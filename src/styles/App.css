@@ -1,0 +1,13 @@
+.App {
+  /* text-align: center; */
+}
+
+.l-wrapper {
+  padding-top: clamp(40px, 6.77vw, 64px);
+  padding-bottom: clamp(40px, 6.77vw, 64px);
+}
+
+.l-wrapper > .inner {
+  width: min(100% - 2rem, 1200px);
+  margin: 0 auto;
+}
